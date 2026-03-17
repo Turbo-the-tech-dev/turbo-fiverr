@@ -1,0 +1,57 @@
+:root {
+  font-family: 'Inter', system-ui, sans-serif;
+  color: #0a0f1a;
+  background: #f7f8fc;
+}
+
+body {
+  margin: 0;
+}
+
+main.sandbox {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  min-height: 100vh;
+}
+
+.sidebar {
+  padding: 2rem;
+  background: #0b1b38;
+  color: #ecf2ff;
+}
+
+.sidebar h1 {
+  margin-top: 0;
+}
+
+.panel-list {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.panel-list button {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: #132856;
+  color: inherit;
+  cursor: pointer;
+}
+
+.panel-list button.active {
+  background: #2f63f6;
+}
+
+.panel {
+  padding: 3rem;
+}
+
+.panel h2 {
+  margin-top: 0;
+}
+
+.panel dl {
+  margin: 1rem 0;
+}
